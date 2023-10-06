@@ -6,7 +6,8 @@ namespace BookAPI.Profiles;
 
 public class BookProfile : Profile
 {
-    public BookProfile() {
+    public BookProfile()
+    {
         CreateMap<CreateBookDto, Book>();
         CreateMap<UpdateBookDto, Book>();
         CreateMap<Book, UpdateBookDto>();
